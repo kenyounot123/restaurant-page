@@ -1,7 +1,15 @@
 import './style.css';
-// function homeSection() {
-//   // Your page-load logic here
-//   console.log('Page loaded!');
-// }
+function homeSection() {
+  const content = document.getElementById('content');
+  const homeContainer = document.createElement('div');
+  homeContainer.classList.add('home-container');
 
-// export default homeSection;
+  const homeTitle = document.createElement('h1');
+  homeTitle.classList.add('home-title');
+  homeTitle.textContent = "Welcome to Mabs Delights"
+  homeContainer.appendChild(homeTitle);
+
+  content.appendChild(homeContainer);
+}
+
+export default homeSection;
