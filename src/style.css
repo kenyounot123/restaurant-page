@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: pink;
+}
+.nav-container {
+  background-color: black;
+  opacity: 0.4;
+}
+.nav-bar {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.nav-bar-buttons {
+  font-size: 2rem;
+  color: white;
+  background: none;
+  border: none;
+  padding: 10px;
+  margin: 0;
+}
+.nav-bar-buttons:hover {
+  opacity: 0.2;
+}
+.nav-bar-buttons + .nav-bar-buttons {
+  margin-left: 50px;
+}

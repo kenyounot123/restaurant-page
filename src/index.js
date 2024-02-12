@@ -1,1 +1,2 @@
-console.log("My restaurant page")
+// import homeSection from "./home";
+import './style.css'
