@@ -7,21 +7,33 @@
 }
 body {
   background-color: #495057;
+  background-image: url('bakery.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
 }
-#light-mode-icon {
+.material-symbols-outlined{ 
   color: white;
 }
+.nav-logo {
+  color: white;
+  font-size: 2rem;
+}
 .nav-container {
-  background-color: #212529;
+  background-color: rgba(33, 37, 41, 0.5);
 }
 .nav-bar {
-  width: 50%;
-  text-align: center;
+  width: 90%;
+  display: flex;
   margin: 0 auto;
+}
+.main-nav {
+  display: flex;
+  margin: 0 auto;
+  gap: 100px;
 }
 .nav-bar-buttons {
   font-size: 2rem;
@@ -34,20 +46,10 @@ body {
 .nav-bar-buttons:hover {
   opacity: 0.2;
 }
-.nav-bar-buttons + .nav-bar-buttons {
-  margin-left: 50px;
-}
-#content {
-  flex-grow: 1;
-}
-
 .home-container {
   color: white;
-  width: 75%;
-  padding: 5px;
+  width: 90%;
   margin: 2em auto;
-  background-color: #343a40;
-  border-radius: 50px;
   min-height: 750px;
 }
 .home-title {
@@ -59,7 +61,6 @@ body {
   width: 50%;
   margin: 50px auto;
   padding: 50px;
-  border: 2px white solid;
 }
 .about-title {
   font-size: 2rem;
@@ -75,7 +76,7 @@ body {
   align-items: center;
 }
 .footer-content {
-  width: 50%;
+  width: 90%;
   text-align: center;
   font-size: 1.2rem;
   color: white;

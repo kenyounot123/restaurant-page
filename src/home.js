@@ -1,11 +1,11 @@
-import './style.css';
+
 function homeSection() {
   //Create parent div for home section
   const content = document.getElementById('content');
   const homeContainer = document.createElement('div');
   homeContainer.classList.add('home-container');
 
-  //Create title for home section and append it to its parent
+  // Create title for home section and append it to its parent
   const homeTitle = document.createElement('h1');
   homeTitle.classList.add('home-title');
   homeTitle.textContent = "Mabs Delights"
