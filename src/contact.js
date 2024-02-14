@@ -71,8 +71,7 @@ function contactSection() {
       socialsList.appendChild(socialsItem)
     })
     socialsContainer.appendChild(socialsList)
-    //Social icons
-    
+    //Add social icons
 
     contactContainer.appendChild(hoursContainer)
     contactContainer.appendChild(socialsContainer)

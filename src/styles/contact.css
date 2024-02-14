@@ -8,3 +8,18 @@
   text-align: center;
   font-size: 3rem;
 }
+.hours-container, 
+.socials-container {
+  color: black;
+  background-color: antiquewhite;
+  width: 50%;
+  max-width: 500px;
+  margin: 1em auto;
+  text-align: center;
+  border-radius: 50px;
+  padding: 1em;
+}
+.hours-item, 
+.socials-item {
+  list-style-type: none;
+}
