@@ -45,11 +45,6 @@ function menuSection() {
       let menuContent = document.createElement('p')
       menuContent.classList.add('menu-content')
       menuContent.textContent = menuDescriptions[index]
-
-
-
-
-
       
       menuCard.appendChild(menuItem)
       menuCard.appendChild(menuItemImg)
@@ -60,4 +55,4 @@ function menuSection() {
     content.appendChild(menuContainer)
 }
 
-export default menuSection 
+export default menuSection;

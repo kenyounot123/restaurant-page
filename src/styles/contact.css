@@ -1,0 +1,10 @@
+.contact-container {
+  color: white;
+  width: 90%;
+  margin: 1em auto;
+}
+.contact-title {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 3rem;
+}
