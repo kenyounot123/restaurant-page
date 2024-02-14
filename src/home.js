@@ -1,4 +1,5 @@
-
+import './styles/style.css'
+import './styles/home.css'
 function homeSection() {
   //Create parent div for home section
   const content = document.getElementById('content');

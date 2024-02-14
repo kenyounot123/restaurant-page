@@ -1,7 +1,7 @@
 // import homeSection from "./home";
 import homeSection from './home'
 import menuSection from './menu'
-import './style.css'
+import './styles/style.css'
 const content = document.getElementById('content')
 const homeBtn = document.querySelector("#home-btn")
 const menuBtn = document.querySelector("#menu-btn")
