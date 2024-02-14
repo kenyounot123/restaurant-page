@@ -1,10 +1,10 @@
-.home-container, .menu-container {
+.home-container {
   color: white;
   width: 90%;
   margin: 2em auto;
   min-height: 750px;
 }
-.home-title, .menu-title {
+.home-title {
   margin: 1em 0;
   text-align: center;
   font-size: 3rem;
